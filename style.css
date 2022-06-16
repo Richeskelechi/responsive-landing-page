@@ -61,6 +61,11 @@ p{
 .align-start{
     align-items: flex-start;
 }
+.align-start div ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 10px;
+}
 header{
     background-image: url('./images/bg-hero-desktop.svg');
     background-size: cover;
@@ -146,7 +151,10 @@ footer p{
         text-align: center;
     }
     nav.flex{
-        flex-direction: row;
+        flex-direction: column;
+    }
+    nav.flex button{
+        margin:40px 0 0 0;
     }
     .main-img{
         margin-left: 0;
